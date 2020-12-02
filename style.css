@@ -1,0 +1,51 @@
+*{
+  font-family: "Arial";
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100%;
+  background: black;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  margin:50px;
+}
+
+table{
+  background: black ;
+  color: white;
+  border: 5px solid red;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+td{
+  padding-bottom: 10px;
+}
+
+input[type="number"]{
+  background: black;
+  border: 2px solid white;
+  color: white; 
+}
+
+input[type="button"]{
+  width: 161px;
+  background: white;
+  border: 1px solid black;
+  padding: 2px;
+  float: right;
+}
+
+input[type="button"]:hover{
+  background: #01510c;
+  color: white;
+}
+
+td #Payment{
+  font-weight:bold;
+}
